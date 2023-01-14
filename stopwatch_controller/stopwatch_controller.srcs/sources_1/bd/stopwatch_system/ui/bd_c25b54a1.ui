@@ -1,0 +1,43 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-162,-66",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1130 -y 30 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1130 -y 50 -defaultsOSRD
+preplace port port-id_enc_btn_0 -pg 1 -lvl 0 -x -20 -y 310 -defaultsOSRD
+preplace port port-id_enc_sw_0 -pg 1 -lvl 0 -x -20 -y 290 -defaultsOSRD
+preplace port port-id_enc_b_0 -pg 1 -lvl 0 -x -20 -y 270 -defaultsOSRD
+preplace port port-id_enc_a_0 -pg 1 -lvl 0 -x -20 -y 250 -defaultsOSRD
+preplace port port-id_clk_0 -pg 1 -lvl 0 -x -20 -y 190 -defaultsOSRD
+preplace portBus switch_0 -pg 1 -lvl 0 -x -20 -y 230 -defaultsOSRD
+preplace portBus btn_0 -pg 1 -lvl 0 -x -20 -y 210 -defaultsOSRD
+preplace inst stopwatch_controller_0 -pg 1 -lvl 3 -x 990 -y 260 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 270 -y 110 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 700 -y 170 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 270 -y 330 -defaultsOSRD
+preplace netloc btn_0_1 1 0 3 0J -40 NJ -40 870J
+preplace netloc clk_0_1 1 0 3 10J -30 NJ -30 850J
+preplace netloc enc_a_0_1 1 0 3 40J 430 530J 320 860J
+preplace netloc enc_b_0_1 1 0 3 30J 440 510J 300 870J
+preplace netloc enc_btn_0_1 1 0 3 0J 450 540J 310 NJ
+preplace netloc enc_sw_0_1 1 0 3 10J 460 520J 290 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 50 470 500 330 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 60 480 480
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 490 350 N
+preplace netloc switch_0_1 1 0 3 20J 490 550J 340 850J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 480 90n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 N 170
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 30 NJ 30 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 50 NJ 50 NJ
+levelinfo -pg 1 -20 270 700 990 1130
+pagesize -pg 1 -db -bbox -sgen -160 -50 1250 500
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}

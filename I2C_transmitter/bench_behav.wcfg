@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6,584.742 ns"></ZoomStartTime>
+      <ZoomEndTime time="6,762.433 ns"></ZoomEndTime>
+      <Cursor1Time time="51,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/bench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/ws" type="logic">
+      <obj_property name="ElementShortName">ws</obj_property>
+      <obj_property name="ObjectShortName">ws</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/sd" type="logic">
+      <obj_property name="ElementShortName">sd</obj_property>
+      <obj_property name="ObjectShortName">sd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/data_left" type="array">
+      <obj_property name="ElementShortName">data_left[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_left[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/data_right" type="array">
+      <obj_property name="ElementShortName">data_right[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_right[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/counter" type="array">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/buffer_send" type="array">
+      <obj_property name="ElementShortName">buffer_send[7:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_send[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/shift_receive" type="array">
+      <obj_property name="ElementShortName">shift_receive[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_receive[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/buffer_receive" type="array">
+      <obj_property name="ElementShortName">buffer_receive[7:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_receive[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/num_checks" type="array">
+      <obj_property name="ElementShortName">num_checks[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_checks[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/num_errors" type="array">
+      <obj_property name="ElementShortName">num_errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_errors[31:0]</obj_property>
+   </wvobject>
+</wave_config>

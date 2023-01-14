@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16,277.518 ns"></ZoomStartTime>
+      <ZoomEndTime time="16,377.840 ns"></ZoomEndTime>
+      <Cursor1Time time="8,750.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/bench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/btn" type="array">
+      <obj_property name="ElementShortName">btn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/switch" type="array">
+      <obj_property name="ElementShortName">switch[7:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/ssdcat" type="logic">
+      <obj_property name="ElementShortName">ssdcat</obj_property>
+      <obj_property name="ObjectShortName">ssdcat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/ssd" type="array">
+      <obj_property name="ElementShortName">ssd[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ssd[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/digits" type="array">
+      <obj_property name="ElementShortName">digits[7:0]</obj_property>
+      <obj_property name="ObjectShortName">digits[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/num_checks" type="array">
+      <obj_property name="ElementShortName">num_checks[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_checks[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/num_errors" type="array">
+      <obj_property name="ElementShortName">num_errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/btn" type="array">
+      <obj_property name="ElementShortName">btn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/btnc" type="logic">
+      <obj_property name="ElementShortName">btnc</obj_property>
+      <obj_property name="ObjectShortName">btnc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/state" type="array">
+      <obj_property name="ElementShortName">state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">state[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/triggered_rise" type="logic">
+      <obj_property name="ElementShortName">triggered_rise</obj_property>
+      <obj_property name="ObjectShortName">triggered_rise</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/triggered_fall" type="logic">
+      <obj_property name="ElementShortName">triggered_fall</obj_property>
+      <obj_property name="ObjectShortName">triggered_fall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/period0" type="array">
+      <obj_property name="ElementShortName">period0[19:0]</obj_property>
+      <obj_property name="ObjectShortName">period0[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/period1" type="array">
+      <obj_property name="ElementShortName">period1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">period1[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/btnc_shift" type="array">
+      <obj_property name="ElementShortName">btnc_shift[1:0]</obj_property>
+      <obj_property name="ObjectShortName">btnc_shift[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/triggered_rise" type="logic">
+      <obj_property name="ElementShortName">triggered_rise</obj_property>
+      <obj_property name="ObjectShortName">triggered_rise</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/triggered_fall" type="logic">
+      <obj_property name="ElementShortName">triggered_fall</obj_property>
+      <obj_property name="ObjectShortName">triggered_fall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/period0" type="array">
+      <obj_property name="ElementShortName">period0[19:0]</obj_property>
+      <obj_property name="ObjectShortName">period0[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/period1" type="array">
+      <obj_property name="ElementShortName">period1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">period1[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/btnc" type="logic">
+      <obj_property name="ElementShortName">btnc</obj_property>
+      <obj_property name="ObjectShortName">btnc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/btnc_shift" type="array">
+      <obj_property name="ElementShortName">btnc_shift[1:0]</obj_property>
+      <obj_property name="ObjectShortName">btnc_shift[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/bounce_count" type="array">
+      <obj_property name="ElementShortName">bounce_count[19:0]</obj_property>
+      <obj_property name="ObjectShortName">bounce_count[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bench/top/switch[7]" type="logic">
+      <obj_property name="ElementShortName">[7]</obj_property>
+      <obj_property name="ObjectShortName">[7]</obj_property>
+   </wvobject>
+</wave_config>

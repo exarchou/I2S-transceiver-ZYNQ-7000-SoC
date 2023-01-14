@@ -1,0 +1,8 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sim_1/new/bench.v,1673045934,verilog,,,,bench,,,,,,,,
+C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sources_1/new/debounce.v,1673045629,verilog,,C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sources_1/new/top.v,,debounce,,,,,,,,
+C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sources_1/new/top.v,1673045965,verilog,,C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sim_1/new/bench.v,,top,,,,,,,,

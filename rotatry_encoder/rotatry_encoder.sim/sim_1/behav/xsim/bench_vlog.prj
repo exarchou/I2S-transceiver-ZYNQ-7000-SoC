@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../rotatry_encoder.srcs/sources_1/new/debounce.v" \
+"../../../../rotatry_encoder.srcs/sources_1/new/ssd.v" \
+"../../../../rotatry_encoder.srcs/sources_1/new/top.v" \
+"../../../../rotatry_encoder.srcs/sim_1/new/bench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sources_1/new/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.srcs/sim_1/new/bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Dimitris/Desktop/CERN/coding/Vivado/button_debounce/button_debounce.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

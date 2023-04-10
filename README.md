@@ -88,9 +88,11 @@ In this application, we monitor for the rising edge of input "a" to determine wh
 
 
 
-## I2C receiver
+## I2S receiver
 
 A widely-used method for transmitting audio data is the I2S protocol, which is a serial protocol very similar to another protocol, SPI, but it is a streaming protocol which means it always transmits data.
+
+I2S is used for transmitting digital audio data between integrated circuits (ICs). It is widely used in digital audio applications such as digital signal processors (DSPs), digital-to-analog converters (DACs), and other audio-related integrated circuits. The I2S protocol is a simple, synchronous protocol that uses three lines for communication: a bit clock (BCLK), a word clock (WCLK), and a data line (DIN/DOUT). The BCLK line provides the clock signal that determines the rate at which the data is transmitted. The WCLK line is used to indicate the start of a new word, and the data is transmitted on the DIN/DOUT line. The I2S protocol can support different data formats such as PCM, I2S, left-justified, and right-justified. The PCM format is the most common format used in digital audio, and it represents the audio data as a series of binary values. Overall, the I2S protocol is a reliable and widely used method for transmitting digital audio data between ICs in audio devices.
 
 I2S sends a stream of stereo audio data, where each audio sample has a left channel and a right channel value. These values can be of different bit sizes, however, 16, 20, 24, and 32 bit values are the most widely used. To understand the protocol in more detail, it is recommended to refer to the I2S Bus Specification.
 
@@ -118,9 +120,8 @@ Three signals are involved in transmitting audio data: a serial clock (SCK), a w
 
 
 
-## I2C transmitter
+## I2S transmitter
 
-An I2C transmitter is a device that sends data to other devices on the I2C bus. It is responsible for generating the necessary clock and data signals, and for formatting the data to be sent in the correct format. I2C transmitters are commonly used in a wide range of electronic devices, including smartphones, tablets, laptops, and industrial control systems.
 
 
 
